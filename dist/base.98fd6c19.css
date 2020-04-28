@@ -45,18 +45,6 @@ body {
 	--fontsize-menu: 18px;
 }
 
-#cdawrap {
-    --cda-width: 230px;
-    --cda-left: auto;
-    --cda-right: 4rem;
-    --cda-bottom: 2.5rem;
-    --cda-text-size: 12px;
-    --cda-text-align: right;
-    --cda-footer-color: var(--color-text);
-    --footer-align: end;
-    --cda-footer-fontsize: 10px;
-}
-
 /* Page Loader */
 .js .loading::before,
 .js .loading::after {
