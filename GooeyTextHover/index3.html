@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en" class="no-js">
+
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Gooey Text Hover Effect | Demo 1 | Codrops</title>
+	<meta name="description" content="">
+	<meta name="keywords" content="">
+	<meta name="author" content="Codrops">
+	<link rel="shortcut icon" href="favicon.26242483.ico">
+	<link rel="stylesheet" href="https://use.typekit.net/dba6omz.css">
+	<link rel="stylesheet" type="text/css" href="base.98fd6c19.css">
+	<script src="https://ajax.googleapis.com/ajax/libs/webfont/1.6.26/webfont.js"></script>
+	<script>document.documentElement.className = "js";
+
+var supportsCssVars = function supportsCssVars() {
+  var e,
+      t = document.createElement("style");
+  return t.innerHTML = "root: { --tmp-var: bold; }", document.head.appendChild(t), e = !!(window.CSS && window.CSS.supports && window.CSS.supports("font-weight", "var(--tmp-var)")), t.parentNode.removeChild(t), e;
+};
+
+supportsCssVars() || alert("Please view this demo in a modern browser that supports CSS Variables.");</script>
+	<script src="//tympanus.net/codrops/adpacks/analytics.js"></script>
+</head>
+
+<body class="demo-3 loading">
+	<main>
+		<h1 class="title">Gooey Text Hover Effect</h1>
+		<div class="text text--menu">&mdash; Menu</div>
+		<a class="text text--subscribe" href="http://eepurl.com/dJBUCo">Subscribe</a>
+		<div class="links">
+			<a href="https://tympanus.net/codrops/?p=49166">Article</a>
+			<a href="https://github.com/codrops/GooeyTextHoverEffect">GitHub</a>
+		</div>
+		<div class="demos">
+			<a href="index.html" class="demo">01</a>
+			<a href="index2.html" class="demo">02</a>
+			<a href="index3.html" class="demo demo--current">03</a>
+		</div>
+		<p class="credits">Inspired and based on this <a href="https://codepen.io/gpyne/pen/ryPQoZ">demo</a></p>
+		<nav class="menu">
+            <a class="menu__item">
+                <svg class="menu__text" viewBox="0 0 100 20" preserveAspectRatio="xMinYMid meet">
+                    <defs>
+                        <filter id="goo-1">
+                            <feGaussianBlur in="SourceGraphic" stdDeviation="1" result="blur"></feGaussianBlur>
+                            <feColorMatrix in="blur" mode="matrix" values="	1 0 0 0 0  
+																			0 1 0 0 0  
+																			1 0 1 0 0  
+																			0 0 0 18 -8" result="goo"></feColorMatrix>
+                            <feComposite in="SourceGraphic" in2="goo" operator="atop"></feComposite>
+                        </filter>
+                    </defs>
+                    <g>
+                        <text x="0" y="15">Franklin</text>
+                        <text x="0" y="15">Jakarta</text>
+                    </g>
+                </svg>
+            </a>
+            <a class="menu__item">
+                <svg class="menu__text" viewBox="0 0 100 20" preserveAspectRatio="xMinYMid meet">
+                    <defs>
+                        <filter id="goo-2">
+                            <feGaussianBlur in="SourceGraphic" stdDeviation="1" result="blur"></feGaussianBlur>
+                            <feColorMatrix in="blur" mode="matrix" values="	1 0 0 0 0  
+																			0 1 0 0 0  
+																			1 0 1 0 0  
+																			0 0 0 18 -8" result="goo"></feColorMatrix>
+                            <feComposite in="SourceGraphic" in2="goo" operator="atop"></feComposite>
+                        </filter>
+                    </defs>
+                    <g>
+                        <text x="0" y="15">Caroline</text>
+                        <text x="0" y="15">Moscow</text>
+                    </g>
+                </svg>
+            </a>
+            <a class="menu__item">
+                <svg class="menu__text" viewBox="0 0 100 20" preserveAspectRatio="xMinYMid meet">
+                    <defs>
+                        <filter id="goo-3">
+                            <feGaussianBlur in="SourceGraphic" stdDeviation="1" result="blur"></feGaussianBlur>
+                            <feColorMatrix in="blur" mode="matrix" values="	1 0 0 0 0  
+																			0 1 0 0 0  
+																			1 0 1 0 0  
+																			0 0 0 18 -8" result="goo"></feColorMatrix>
+                            <feComposite in="SourceGraphic" in2="goo" operator="atop"></feComposite>
+                        </filter>
+                    </defs>
+                    <g>
+                        <text x="0" y="15">Andrew</text>
+                        <text x="0" y="15">London</text>
+                    </g>
+                </svg>
+            </a>
+            <a class="menu__item">
+                <svg class="menu__text" viewBox="0 0 100 20" preserveAspectRatio="xMinYMid meet">
+                    <defs>
+                        <filter id="goo-4">
+                            <feGaussianBlur in="SourceGraphic" stdDeviation="1" result="blur"></feGaussianBlur>
+                            <feColorMatrix in="blur" mode="matrix" values="	1 0 0 0 0  
+																			0 1 0 0 0  
+																			1 0 1 0 0  
+																			0 0 0 18 -8" result="goo"></feColorMatrix>
+                            <feComposite in="SourceGraphic" in2="goo" operator="atop"></feComposite>
+                        </filter>
+                    </defs>
+                    <g>
+                        <text x="0" y="15">Jennifer</text>
+                        <text x="0" y="15">Toronto</text>
+                    </g>
+                </svg>
+            </a>
+        </nav>
+	</main>
+	<script src="https://tympanus.net/codrops/adpacks/cda.js"></script>
+	<script src="demo3.b516845c.js"></script>
+</body>
+
+</html>
