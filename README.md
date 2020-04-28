@@ -2,7 +2,7 @@
 
 A gooey text hover effect using SVG filters based on this <a href="https://codepen.io/gpyne/pen/ryPQoZ">demo</a>.
 
-![Image Title](link)
+![Image Title](https://codropspz-tympanus.netdna-ssl.com/codrops/wp-content/uploads/2020/04/GooeyMenu_featured-1.jpg)
 
 [Article on Codrops](https://tympanus.net/codrops/?p=49166)
 
